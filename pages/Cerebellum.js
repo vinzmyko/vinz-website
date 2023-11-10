@@ -42,7 +42,7 @@ export default function Home() {
                                     />
                                 )}
                             </li>
-                            <li><a className="font-chivomono bg-slate-500 text-white px-4 py-2 rounded-md ml-8 dark:bg-slate-400 dark:text-slate-800 font-semibold" href="https://www.linkedin.com/in/vinz-myko-del-rosario-62605b1a6/overlay/1635523780021/single-media-viewer/?profileId=ACoAADAPwr4BwyXwBQ7r2rOF5t90pvfx06tf8iA" target="_blank" >CV</a></li>
+                            <li><a className="font-chivomono bg-slate-500 text-white px-4 py-2 rounded-md ml-8 dark:bg-slate-400 dark:text-slate-800 font-semibold" href="https://docs.google.com/document/d/e/2PACX-1vQ7oJrhKtmdHoFFcU10EKpiGgVxIU2zUdFNzN4Nl_Ylv7ay1hzmE1FDSdr1rkzjG6ZF-ojumXpsGQNY/pub" target="_blank" >CV</a></li>
                         </ul>
                     </nav>
 
