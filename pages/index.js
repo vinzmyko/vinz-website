@@ -109,7 +109,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
 
       <Head>
-        <title>Vinz's Website</title>
+        <title>Vinz`s Website</title>
         
       </Head>
 

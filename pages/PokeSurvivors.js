@@ -56,7 +56,7 @@ export default function Home() {
                         <h3 className="text-center pb-5 font-chivomono text-5xl font-semibold text-zinc-700 dark:text-stone-300">PokeSurvivors</h3>
                         <div className="font-notosans text-md mx-auto text-zinc-700 dark:text-stone-200">
                             <p className="pb-5">
-                                This is one of my personal projects, in which I combine the popular Indie game Vampire Survivors with Pokemon, specifically Pokemon Mystery Dungeon's Assets.
+                                This is one of my personal projects, in which I combine the popular Indie game Vampire Survivors with Pokemon, specifically Pokemon Mystery Dungeon`s Assets.
                             </p> 
                             <p className="pb-5">
                                 This project is still work in progress but I had fun planning the code structure for this project as I had to integrate systems already placed in Pokemon such as base stats, moves, shiny percentage and evolution.
@@ -94,7 +94,7 @@ export default function Home() {
 
 
                             <p className="pb-5">
-                                In summary, I used the Godot Game Engine's API to automatically create the file structure I wanted for my project's
+                                In summary, I used the Godot Game Engine`s API to automatically create the file structure I wanted for my project`s
                                 file structure and also creating a new scene structure.
                             </p>
  
