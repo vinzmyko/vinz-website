@@ -6,28 +6,32 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
+import endlessrunner_gif from "../public/ps5_compressed.gif";
+import pokesurvivors from "../public/pokesurvivors.gif";
+import cerebellum from "../public/cerebellum.gif";
+
 export default function Home() {
   // date format = YYYY-MM-DD
   const gamesData = [
     {
       title: "Cerebellum",
       date: "2019-09-01",
-      tag: ["Godot"],
-      imageSrc: "/../public/cerebellum.gif",
+      tag: ["Unity", "C#"],
+      imageSrc: cerebellum,
       pageLink: "/Cerebellum",
     },
     {
       title: "PokeSurvivors",
-      date: "2023-05-20",
+      date: "2024-05-20",
       tag: ["Godot"],
-      imageSrc: "/../public/pokesurvivors.gif",
+      imageSrc: pokesurvivors,
       pageLink: "/PokeSurvivors",
     },
      {
       title: "Endless Runner",
       date: "2022-05-01",
-      tag: ["Godot"],
-      imageSrc: "/../public/ps5_compressed.gif",
+      tag: ["C++"],
+      imageSrc: endlessrunner_gif,
       pageLink: "/EndlessRunner",
     },
     
@@ -279,6 +283,7 @@ export default function Home() {
           {/* --- Images --- */}
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap"> {/* Take lg:flex-wrap off when you have more games */}
+
             {filteredGames
               .sort((a, b) =>
                 sortOrder === "latest" ? new Date(b.date) - new Date(a.date) : new Date(a.date) - new Date(b.date)
@@ -297,6 +302,7 @@ export default function Home() {
                   </Link>
                 </div>
               ))}
+
           </div>
 
         </section>
